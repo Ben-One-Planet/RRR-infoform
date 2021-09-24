@@ -46,7 +46,7 @@ body {
 .form_wrapper input[type=text] {
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 0 0 12px 0;
     display: block;
     border: 1px solid #959393;
     -webkit-box-sizing: border-box;
@@ -74,5 +74,93 @@ body {
 }
 
 .form_wrapper {
-    padding: 20px;
+    padding: 2em 2em 0.5em 2em;
+}
+
+.BBB_container {
+    text-align: center;
+}
+
+.BBB_container img {
+    width: 20%;
+}
+
+.fine_print_wrapper {
+    padding: 1em 1.5em;
+    text-align: center;
+}
+
+.fine_print_wrapper p {
+    font-size: 12px;
+    color: #4E4E4E;
+    line-height: 1.5;
+}
+
+.fine_print_wrapper p a {
+    color: #2D4EC1;
+    text-decoration: underline;
+}
+
+.footer_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 1em;
+    background-color: #FBFBFB;
+}
+
+.footer_side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.footer_side li {
+    list-style: none;
+    line-height: 1.2;
+    padding: 0.5em;
+}
+
+.footer_side li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 14px;
+    color: #515151;
+    cursor: pointer;
+    -webkit-transition: 500ms color ease;
+    transition: 500ms color ease;
+}
+
+.lower_footer_container {
+    background-color: #251E1E;
+    padding: 0.8em;
+}
+
+.lower_footer_container p {
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.lower_footer_container p a {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-transition: 500ms color ease;
+    transition: 500ms color ease;
 }
