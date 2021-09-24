@@ -11,3 +11,68 @@ body {
     background: #fff;
     font-family: 'Prompt', sans-serif;
 }
+
+.logo_container {
+    text-align: center;
+    padding: 1.3em 0;
+}
+
+.logo {
+    width: 20%;
+}
+
+.header_copy_wrapper {
+    text-align: center;
+    padding: 0.5em 1em 0 1em;
+}
+
+.header_copy_wrapper h1 {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #000;
+}
+
+.header_copy_wrapper h1 span {
+    color: #30AFEC;
+}
+
+.header_copy_wrapper p {
+    font-size: 16px;
+    line-height: 1.4;
+    color: #4E4E4E;
+    padding-top: 0.8em;
+}
+
+.form_wrapper input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #959393;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form_wrapper input[type=submit] {
+    width: 100%;
+    background-color: #2D4EC1;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 0 10px 0;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.form_wrapper label {
+    font-size: 16px;
+    color: #251E1E;
+}
+
+.form_wrapper label span {
+    color: #D91111;
+}
+
+.form_wrapper {
+    padding: 20px;
+}
