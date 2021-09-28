@@ -65,7 +65,7 @@ body {
     padding-top: 0.8em;
 }
 
-.form_wrapper input[type=text] {
+.input_field {
     width: 100%;
     padding: 12px 20px;
     margin: 0 0 12px 0;
@@ -75,6 +75,7 @@ body {
     box-sizing: border-box;
 }
 
+/*
 .form_wrapper input[type=submit] {
     width: 100%;
     background-color: #2D4EC1;
@@ -85,6 +86,7 @@ body {
     cursor: pointer;
     font-size: 18px;
 }
+*/
 
 .form_wrapper label {
     font-size: 16px;
