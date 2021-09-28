@@ -29,6 +29,18 @@ body {
     width: 20%;
 }
 
+.CTA {
+    display: inline-block;
+    width: 100%;
+    background: #2D4EC1;
+    font-size: 18px;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border: none;
+    margin: 10px auto 20px auto;
+}
+
 .header_copy_wrapper {
     text-align: center;
     padding: 0.5em 1.5em 0 1.5em;
